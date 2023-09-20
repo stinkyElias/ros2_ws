@@ -269,7 +269,7 @@ SITE:STRING=stinky
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/home/stinky/Documents/ros2_ws/install/tutorials_interfaces/lib/libtutorials_interfaces__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/home/stinky/Documents/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/humble/share/ament_cmake/cmake
@@ -465,6 +465,9 @@ std_msgs_DIR:PATH=/opt/ros/humble/share/std_msgs/cmake
 
 //The directory containing a CMake configuration file for tracetools.
 tracetools_DIR:PATH=/opt/ros/humble/share/tracetools/cmake
+
+//The directory containing a CMake configuration file for tutorial_interfaces.
+tutorial_interfaces_DIR:PATH=/home/stinky/Documents/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake
 
 //The directory containing a CMake configuration file for tutorials_interfaces.
 tutorials_interfaces_DIR:PATH=/home/stinky/Documents/ros2_ws/install/tutorials_interfaces/share/tutorials_interfaces/cmake
