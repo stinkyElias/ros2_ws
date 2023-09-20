@@ -1,0 +1,66 @@
+[0.025s] Invoking command in '/home/stinky/Documents/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/stinky/Documents/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/stinky/Documents/ros2_ws/install/cpp_srvcli
+[0.098s] -- The C compiler identification is GNU 11.4.0
+[0.174s] -- The CXX compiler identification is GNU 11.4.0
+[0.188s] -- Detecting C compiler ABI info
+[0.297s] -- Detecting C compiler ABI info - done
+[0.311s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.311s] -- Detecting C compile features
+[0.312s] -- Detecting C compile features - done
+[0.316s] -- Detecting CXX compiler ABI info
+[0.446s] -- Detecting CXX compiler ABI info - done
+[0.459s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.460s] -- Detecting CXX compile features
+[0.460s] -- Detecting CXX compile features - done
+[0.464s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.699s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.840s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.897s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.902s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.911s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.927s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.949s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.033s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.036s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.172s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.210s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.264s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.274s] -- Looking for pthread.h
+[1.375s] -- Looking for pthread.h - found
+[1.376s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.489s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.492s] -- Found Threads: TRUE  
+[1.735s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[2.024s] -- Configuring done
+[2.046s] -- Generating done
+[2.049s] -- Build files have been written to: /home/stinky/Documents/ros2_ws/build/cpp_srvcli
+[2.062s] Invoked command in '/home/stinky/Documents/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/stinky/Documents/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/stinky/Documents/ros2_ws/install/cpp_srvcli
+[2.064s] Invoking command in '/home/stinky/Documents/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/stinky/Documents/ros2_ws/build/cpp_srvcli -- -j8 -l8
+[2.133s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[2.133s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[6.257s] [ 75%] [32m[1mLinking CXX executable server[0m
+[6.561s] [ 75%] Built target server
+[6.594s] [100%] [32m[1mLinking CXX executable client[0m
+[6.825s] [100%] Built target client
+[6.841s] Invoked command in '/home/stinky/Documents/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/stinky/Documents/ros2_ws/build/cpp_srvcli -- -j8 -l8
+[6.891s] Invoking command in '/home/stinky/Documents/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/stinky/Documents/ros2_ws/build/cpp_srvcli
+[6.900s] -- Install configuration: ""
+[6.900s] -- Installing: /home/stinky/Documents/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[6.901s] -- Set runtime path of "/home/stinky/Documents/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[6.901s] -- Installing: /home/stinky/Documents/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[6.901s] -- Set runtime path of "/home/stinky/Documents/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[6.902s] -- Installing: /home/stinky/Documents/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[6.902s] -- Installing: /home/stinky/Documents/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[6.902s] -- Installing: /home/stinky/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[6.902s] -- Installing: /home/stinky/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[6.902s] -- Installing: /home/stinky/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[6.902s] -- Installing: /home/stinky/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[6.903s] -- Installing: /home/stinky/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[6.903s] -- Installing: /home/stinky/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[6.903s] -- Installing: /home/stinky/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[6.903s] -- Installing: /home/stinky/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[6.903s] -- Installing: /home/stinky/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[6.903s] -- Installing: /home/stinky/Documents/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[6.903s] -- Installing: /home/stinky/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[6.904s] -- Installing: /home/stinky/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[6.904s] -- Installing: /home/stinky/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[6.907s] Invoked command in '/home/stinky/Documents/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/stinky/Documents/ros2_ws/build/cpp_srvcli
