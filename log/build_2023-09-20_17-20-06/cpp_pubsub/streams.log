@@ -1,0 +1,18 @@
+[0.021s] Invoking command in '/home/stinky/Documents/ros2_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/stinky/Documents/ros2_ws/install/tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stinky/Documents/ros2_ws/install/tutorials_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/stinky/Documents/ros2_ws/install/tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/stinky/Documents/ros2_ws/install/tutorials_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/stinky/Documents/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[0.103s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[0.104s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.358s] [01m[K/home/stinky/Documents/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Ktutorials_interfaces/msg/num.hpp: No such file or directory
+[0.358s]     5 | #include [01;31m[K"tutorials_interfaces/msg/num.hpp"[m[K                                            // CHANGE
+[0.358s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.358s] compilation terminated.
+[0.367s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[0.367s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[0.367s] gmake[1]: *** Waiting for unfinished jobs....
+[0.368s] [01m[K/home/stinky/Documents/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Ktutorials_interfaces/msg/num.hpp: No such file or directory
+[0.368s]     5 | #include [01;31m[K"tutorials_interfaces/msg/num.hpp"[m[K                                       // CHANGE
+[0.368s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.368s] compilation terminated.
+[0.371s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[0.371s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+[0.371s] gmake: *** [Makefile:146: all] Error 2
+[0.374s] Invoked command in '/home/stinky/Documents/ros2_ws/build/cpp_pubsub' returned '2': AMENT_PREFIX_PATH=/home/stinky/Documents/ros2_ws/install/tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stinky/Documents/ros2_ws/install/tutorials_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/stinky/Documents/ros2_ws/install/tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/stinky/Documents/ros2_ws/install/tutorials_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/stinky/Documents/ros2_ws/build/cpp_pubsub -- -j8 -l8

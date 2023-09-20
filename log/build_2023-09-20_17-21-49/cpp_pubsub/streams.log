@@ -1,0 +1,34 @@
+[0.021s] Invoking command in '/home/stinky/Documents/ros2_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/stinky/Documents/ros2_ws/install/tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stinky/Documents/ros2_ws/install/tutorials_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/stinky/Documents/ros2_ws/install/tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/stinky/Documents/ros2_ws/install/tutorials_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/stinky/Documents/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[0.068s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.324s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.368s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.372s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.378s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.399s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.418s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.491s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.492s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.632s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.821s] -- Found tutorials_interfaces: 0.0.0 (/home/stinky/Documents/ros2_ws/install/tutorials_interfaces/share/tutorials_interfaces/cmake)
+[1.059s] -- Configuring done
+[1.078s] -- Generating done
+[1.080s] -- Build files have been written to: /home/stinky/Documents/ros2_ws/build/cpp_pubsub
+[1.126s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[1.127s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[1.156s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[1.157s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[1.402s] [01m[K/home/stinky/Documents/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Ktutorials_interfaces/msg/num.hpp: No such file or directory
+[1.402s]     5 | #include [01;31m[K"tutorials_interfaces/msg/num.hpp"[m[K                                            // CHANGE
+[1.403s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.403s] compilation terminated.
+[1.411s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[1.412s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[1.412s] gmake[1]: *** Waiting for unfinished jobs....
+[1.415s] [01m[K/home/stinky/Documents/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Ktutorials_interfaces/msg/num.hpp: No such file or directory
+[1.415s]     5 | #include [01;31m[K"tutorials_interfaces/msg/num.hpp"[m[K                                       // CHANGE
+[1.415s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.416s] compilation terminated.
+[1.419s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[1.419s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+[1.419s] gmake: *** [Makefile:146: all] Error 2
+[1.422s] Invoked command in '/home/stinky/Documents/ros2_ws/build/cpp_pubsub' returned '2': AMENT_PREFIX_PATH=/home/stinky/Documents/ros2_ws/install/tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stinky/Documents/ros2_ws/install/tutorials_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/stinky/Documents/ros2_ws/install/tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/stinky/Documents/ros2_ws/install/tutorials_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/stinky/Documents/ros2_ws/build/cpp_pubsub -- -j8 -l8

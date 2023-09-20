@@ -1,0 +1,8 @@
+{
+  "package_name": "tutorials_interfaces",
+  "non_idl_tuples": [
+    "/home/stinky/Documents/ros2_ws/src/tutorials_interfaces:msg/Num.msg",
+    "/home/stinky/Documents/ros2_ws/src/tutorials_interfaces:msg/Sphere.msg",
+    "/home/stinky/Documents/ros2_ws/src/tutorials_interfaces:srv/AddThreeInts.srv"
+  ]
+}
