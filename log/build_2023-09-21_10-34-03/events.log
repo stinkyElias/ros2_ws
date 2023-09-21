@@ -1,0 +1,151 @@
+[0.000000] (-) TimerEvent: {}
+[0.000550] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000815] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.001869] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.002013] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.002090] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.002236] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.002330] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.002479] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002555] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.002649] (action_tutorials_cpp) JobQueued: {'identifier': 'action_tutorials_cpp', 'dependencies': OrderedDict([('action_tutorials_interfaces', '/home/stinky/Documents/ros2_ws/install/action_tutorials_interfaces')])}
+[0.002783] (action_tutorials_cpp) JobStarted: {'identifier': 'action_tutorials_cpp'}
+[0.019981] (action_tutorials_cpp) JobProgress: {'identifier': 'action_tutorials_cpp', 'progress': 'cmake'}
+[0.020880] (action_tutorials_cpp) JobProgress: {'identifier': 'action_tutorials_cpp', 'progress': 'build'}
+[0.022290] (action_tutorials_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/stinky/Documents/ros2_ws/build/action_tutorials_cpp', '--', '-j8', '-l8'], 'cwd': '/home/stinky/Documents/ros2_ws/build/action_tutorials_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'stinky'), ('LC_TIME', 'nb_NO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/stinky/Documents/ros2_ws/install/action_tutorials_interfaces/lib:/home/stinky/Documents/ros2_ws/install/tutorials_interfaces/lib:/home/stinky/Documents/ros2_ws/install/tutorial_interfaces/lib:/home/stinky/Documents/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/stinky'), ('OLDPWD', '/home/stinky/Documents/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nb_NO.UTF-8'), ('SYSTEMD_EXEC_PID', '1626'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/stinky/Documents/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'stinky'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'stinky'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/stinky:@/tmp/.ICE-unix/1566,unix/stinky:/tmp/.ICE-unix/1566'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nb_NO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2dca5679_9967_4300_86fa_69f9782c4edf'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nb_NO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GADHB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.145'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/stinky/Documents/ros2_ws/install/action_tutorials_interfaces:/home/stinky/Documents/ros2_ws/install/tutorials_interfaces:/home/stinky/Documents/ros2_ws/install/cpp_srvcli:/home/stinky/Documents/ros2_ws/install/cpp_pubsub:/home/stinky/Documents/ros2_ws/install/tutorial_interfaces:/home/stinky/Documents/ros2_ws/install/cpp_parameters:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nb_NO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nb_NO.UTF-8'), ('LC_IDENTIFICATION', 'nb_NO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/stinky/Documents/ros2_ws/build/action_tutorials_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/stinky/Documents/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/home/stinky/Documents/ros2_ws/install/tutorials_interfaces/local/lib/python3.10/dist-packages:/home/stinky/Documents/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nb_NO.UTF-8'), ('LC_PAPER', 'nb_NO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/stinky/Documents/ros2_ws/install/action_tutorials_interfaces:/home/stinky/Documents/ros2_ws/install/tutorials_interfaces:/home/stinky/Documents/ros2_ws/install/cpp_srvcli:/home/stinky/Documents/ros2_ws/install/cpp_pubsub:/home/stinky/Documents/ros2_ws/install/tutorial_interfaces:/home/stinky/Documents/ros2_ws/install/turtlesim:/home/stinky/Documents/ros2_ws/install/cpp_parameters:/opt/ros/humble')]), 'shell': False}
+[0.061497] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098195] (-) TimerEvent: {}
+[0.198856] (-) TimerEvent: {}
+[0.299294] (-) TimerEvent: {}
+[0.329000] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found action_tutorials_interfaces: 0.0.0 (/home/stinky/Documents/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake)\n'}
+[0.398957] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.399370] (-) TimerEvent: {}
+[0.402639] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.409922] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.425403] (action_tutorials_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.448134] (action_tutorials_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.499498] (-) TimerEvent: {}
+[0.599859] (-) TimerEvent: {}
+[0.638803] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.695690] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.697336] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.699972] (-) TimerEvent: {}
+[0.800786] (-) TimerEvent: {}
+[0.839958] (action_tutorials_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.902072] (-) TimerEvent: {}
+[1.002563] (-) TimerEvent: {}
+[1.049731] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.5 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[1.083647] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.5 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[1.102864] (-) TimerEvent: {}
+[1.164487] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.202975] (-) TimerEvent: {}
+[1.267182] (action_tutorials_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.267598] (action_tutorials_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/stinky/Documents/ros2_ws/src/action_tutorials_cpp/include>\n'}
+[1.267713] (action_tutorials_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.268357] (action_tutorials_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.269478] (action_tutorials_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.269614] (action_tutorials_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.269993] (action_tutorials_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.271138] (action_tutorials_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.299196] (action_tutorials_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[1.301596] (action_tutorials_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/stinky/Documents/ros2_ws/build/action_tutorials_cpp\n'}
+[1.303039] (-) TimerEvent: {}
+[1.342785] (action_tutorials_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_server\x1b[0m\n'}
+[1.343098] (action_tutorials_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fibonacci_action_server\x1b[0m\n'}
+[1.359273] (action_tutorials_cpp) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/fibonacci_action_client.dir/rclcpp_components/node_main_fibonacci_action_client.cpp.o\x1b[0m\n'}
+[1.367819] (action_tutorials_cpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/action_client.dir/src/fibonacci_action_client.cpp.o\x1b[0m\n'}
+[1.370156] (action_tutorials_cpp) StdoutLine: {'line': b'[ 75%] Built target action_server\n'}
+[1.370466] (action_tutorials_cpp) StdoutLine: {'line': b'[ 75%] Built target fibonacci_action_server\n'}
+[1.403163] (-) TimerEvent: {}
+[1.503512] (-) TimerEvent: {}
+[1.603880] (-) TimerEvent: {}
+[1.704238] (-) TimerEvent: {}
+[1.804619] (-) TimerEvent: {}
+[1.905047] (-) TimerEvent: {}
+[2.005452] (-) TimerEvent: {}
+[2.105867] (-) TimerEvent: {}
+[2.206258] (-) TimerEvent: {}
+[2.306976] (-) TimerEvent: {}
+[2.407465] (-) TimerEvent: {}
+[2.507992] (-) TimerEvent: {}
+[2.608470] (-) TimerEvent: {}
+[2.709004] (-) TimerEvent: {}
+[2.809480] (-) TimerEvent: {}
+[2.909919] (-) TimerEvent: {}
+[3.010389] (-) TimerEvent: {}
+[3.110844] (-) TimerEvent: {}
+[3.211245] (-) TimerEvent: {}
+[3.311646] (-) TimerEvent: {}
+[3.412077] (-) TimerEvent: {}
+[3.512512] (-) TimerEvent: {}
+[3.612967] (-) TimerEvent: {}
+[3.713403] (-) TimerEvent: {}
+[3.813959] (-) TimerEvent: {}
+[3.914399] (-) TimerEvent: {}
+[4.014834] (-) TimerEvent: {}
+[4.115229] (-) TimerEvent: {}
+[4.215669] (-) TimerEvent: {}
+[4.316194] (-) TimerEvent: {}
+[4.416597] (-) TimerEvent: {}
+[4.517025] (-) TimerEvent: {}
+[4.617448] (-) TimerEvent: {}
+[4.717893] (-) TimerEvent: {}
+[4.818291] (-) TimerEvent: {}
+[4.918697] (-) TimerEvent: {}
+[5.019094] (-) TimerEvent: {}
+[5.119501] (-) TimerEvent: {}
+[5.220011] (-) TimerEvent: {}
+[5.320418] (-) TimerEvent: {}
+[5.421526] (-) TimerEvent: {}
+[5.522663] (-) TimerEvent: {}
+[5.533861] (action_tutorials_cpp) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable fibonacci_action_client\x1b[0m\n'}
+[5.622799] (-) TimerEvent: {}
+[5.713607] (action_tutorials_cpp) StdoutLine: {'line': b'[ 87%] Built target fibonacci_action_client\n'}
+[5.722937] (-) TimerEvent: {}
+[5.823384] (-) TimerEvent: {}
+[5.923909] (-) TimerEvent: {}
+[6.024363] (-) TimerEvent: {}
+[6.125317] (-) TimerEvent: {}
+[6.225775] (-) TimerEvent: {}
+[6.326966] (-) TimerEvent: {}
+[6.427388] (-) TimerEvent: {}
+[6.527838] (-) TimerEvent: {}
+[6.628269] (-) TimerEvent: {}
+[6.728745] (-) TimerEvent: {}
+[6.828150] (action_tutorials_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libaction_client.so\x1b[0m\n'}
+[6.828800] (-) TimerEvent: {}
+[6.929115] (-) TimerEvent: {}
+[7.030024] (-) TimerEvent: {}
+[7.090998] (action_tutorials_cpp) StdoutLine: {'line': b'[100%] Built target action_client\n'}
+[7.118817] (action_tutorials_cpp) CommandEnded: {'returncode': 0}
+[7.130615] (-) TimerEvent: {}
+[7.175479] (action_tutorials_cpp) JobProgress: {'identifier': 'action_tutorials_cpp', 'progress': 'install'}
+[7.188852] (action_tutorials_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/stinky/Documents/ros2_ws/build/action_tutorials_cpp'], 'cwd': '/home/stinky/Documents/ros2_ws/build/action_tutorials_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'stinky'), ('LC_TIME', 'nb_NO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/stinky/Documents/ros2_ws/install/action_tutorials_interfaces/lib:/home/stinky/Documents/ros2_ws/install/tutorials_interfaces/lib:/home/stinky/Documents/ros2_ws/install/tutorial_interfaces/lib:/home/stinky/Documents/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/stinky'), ('OLDPWD', '/home/stinky/Documents/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nb_NO.UTF-8'), ('SYSTEMD_EXEC_PID', '1626'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/stinky/Documents/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'stinky'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'stinky'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/stinky:@/tmp/.ICE-unix/1566,unix/stinky:/tmp/.ICE-unix/1566'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nb_NO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2dca5679_9967_4300_86fa_69f9782c4edf'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nb_NO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GADHB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.145'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/stinky/Documents/ros2_ws/install/action_tutorials_interfaces:/home/stinky/Documents/ros2_ws/install/tutorials_interfaces:/home/stinky/Documents/ros2_ws/install/cpp_srvcli:/home/stinky/Documents/ros2_ws/install/cpp_pubsub:/home/stinky/Documents/ros2_ws/install/tutorial_interfaces:/home/stinky/Documents/ros2_ws/install/cpp_parameters:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nb_NO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nb_NO.UTF-8'), ('LC_IDENTIFICATION', 'nb_NO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/stinky/Documents/ros2_ws/build/action_tutorials_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/stinky/Documents/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/home/stinky/Documents/ros2_ws/install/tutorials_interfaces/local/lib/python3.10/dist-packages:/home/stinky/Documents/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nb_NO.UTF-8'), ('LC_PAPER', 'nb_NO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/stinky/Documents/ros2_ws/install/action_tutorials_interfaces:/home/stinky/Documents/ros2_ws/install/tutorials_interfaces:/home/stinky/Documents/ros2_ws/install/cpp_srvcli:/home/stinky/Documents/ros2_ws/install/cpp_pubsub:/home/stinky/Documents/ros2_ws/install/tutorial_interfaces:/home/stinky/Documents/ros2_ws/install/turtlesim:/home/stinky/Documents/ros2_ws/install/cpp_parameters:/opt/ros/humble')]), 'shell': False}
+[7.201923] (action_tutorials_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.202256] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /home/stinky/Documents/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_client\n'}
+[7.203230] (action_tutorials_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/stinky/Documents/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_client" to ""\n'}
+[7.203614] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /home/stinky/Documents/ros2_ws/install/action_tutorials_cpp/lib/libaction_client.so\n'}
+[7.207162] (action_tutorials_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/stinky/Documents/ros2_ws/install/action_tutorials_cpp/lib/libaction_client.so" to ""\n'}
+[7.207521] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/stinky/Documents/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_server\n'}
+[7.207930] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/stinky/Documents/ros2_ws/install/action_tutorials_cpp/lib/libaction_server.so\n'}
+[7.208223] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/stinky/Documents/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/package_run_dependencies/action_tutorials_cpp\n'}
+[7.208462] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/stinky/Documents/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/parent_prefix_path/action_tutorials_cpp\n'}
+[7.208667] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/stinky/Documents/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.sh\n'}
+[7.208840] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /home/stinky/Documents/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.dsv\n'}
+[7.209061] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/stinky/Documents/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.sh\n'}
+[7.209232] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /home/stinky/Documents/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.dsv\n'}
+[7.209447] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/stinky/Documents/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.bash\n'}
+[7.209684] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/stinky/Documents/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.sh\n'}
+[7.209884] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/stinky/Documents/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.zsh\n'}
+[7.210143] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /home/stinky/Documents/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.dsv\n'}
+[7.210353] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /home/stinky/Documents/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv\n'}
+[7.210604] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/stinky/Documents/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/packages/action_tutorials_cpp\n'}
+[7.210795] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /home/stinky/Documents/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/rclcpp_components/action_tutorials_cpp\n'}
+[7.211043] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/stinky/Documents/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig.cmake\n'}
+[7.211243] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/stinky/Documents/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig-version.cmake\n'}
+[7.211442] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/stinky/Documents/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.xml\n'}
+[7.214412] (action_tutorials_cpp) CommandEnded: {'returncode': 0}
+[7.231253] (-) TimerEvent: {}
+[7.335281] (-) TimerEvent: {}
+[7.350470] (action_tutorials_cpp) JobEnded: {'identifier': 'action_tutorials_cpp', 'rc': 0}
+[7.351531] (-) EventReactorShutdown: {}

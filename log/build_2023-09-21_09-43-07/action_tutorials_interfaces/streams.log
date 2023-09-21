@@ -1,0 +1,66 @@
+[0.060s] Invoking command in '/home/stinky/Documents/ros2_ws/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/stinky/Documents/ros2_ws/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/stinky/Documents/ros2_ws/install/action_tutorials_interfaces
+[0.222s] -- The C compiler identification is GNU 11.4.0
+[0.458s] -- The CXX compiler identification is GNU 11.4.0
+[0.482s] -- Detecting C compiler ABI info
+[0.759s] -- Detecting C compiler ABI info - done
+[0.785s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.786s] -- Detecting C compile features
+[0.787s] -- Detecting C compile features - done
+[0.797s] -- Detecting CXX compiler ABI info
+[1.190s] -- Detecting CXX compiler ABI info - done
+[1.224s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.225s] -- Detecting CXX compile features
+[1.226s] -- Detecting CXX compile features - done
+[1.233s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.695s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.954s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.963s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.981s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.099s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.587s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[2.588s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[2.588s]   action_tutorials_interfaces --arguments-file
+[2.588s]   /home/stinky/Documents/ros2_ws/build/action_tutorials_interfaces/rosidl_adapter__arguments__action_tutorials_interfaces.json
+[2.588s]   --output-dir
+[2.588s]   /home/stinky/Documents/ros2_ws/build/action_tutorials_interfaces/rosidl_adapter/action_tutorials_interfaces
+[2.588s]   --output-file
+[2.589s]   /home/stinky/Documents/ros2_ws/build/action_tutorials_interfaces/rosidl_adapter/action_tutorials_interfaces.idls)
+[2.589s]   returned error code 1:
+[2.589s] 
+[2.589s]   Error processing 'int32[ sequence]' of
+[2.589s]   'action_tutorials_interfaces/Fibonacci_Result': ''int32[' is an invalid
+[2.589s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''
+[2.590s] 
+[2.590s]   Traceback (most recent call last):
+[2.590s] 
+[2.590s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[2.590s]       return _run_code(code, main_globals, None,
+[2.590s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[2.591s]       exec(code, run_globals)
+[2.591s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[2.591s]       sys.exit(main())
+[2.591s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[2.591s]       abs_idl_file = convert_to_idl(
+[2.591s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl
+[2.592s]       return convert_action_to_idl(
+[2.592s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/action/__init__.py", line 28, in convert_action_to_idl
+[2.592s]       action = parse_action_string(package_name, input_file.stem, content)
+[2.592s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 904, in parse_action_string
+[2.592s]       result_message = parse_message_string(
+[2.592s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string
+[2.592s]       Type(type_string, context_package_name=pkg_name),
+[2.593s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__
+[2.593s]       super(Type, self).__init__(
+[2.593s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[2.593s]       raise InvalidResourceName(
+[2.593s] 
+[2.593s]   rosidl_adapter.parser.InvalidResourceName: 'int32[' is an invalid message
+[2.594s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[2.594s] 
+[2.594s] Call Stack (most recent call first):
+[2.594s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[2.594s]   CMakeLists.txt:8 (rosidl_generate_interfaces)
+[2.594s] 
+[2.595s] [0m
+[2.595s] -- Configuring incomplete, errors occurred!
+[2.595s] See also "/home/stinky/Documents/ros2_ws/build/action_tutorials_interfaces/CMakeFiles/CMakeOutput.log".
