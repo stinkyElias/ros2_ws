@@ -1,0 +1,36 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/stinky/Documents/ros2_ws/install/tutorials_interfaces/include/**",
+        "/home/stinky/Documents/ros2_ws/install/tutorial_interfaces/include/**",
+        "/home/stinky/Documents/ros2_ws/install/polygon_base/include/**",
+        "/home/stinky/Documents/ros2_ws/install/action_tutorials_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/stinky/Documents/ros2_ws/src/action_tutorials_cpp/include/**",
+        "/home/stinky/Documents/ros2_ws/src/action_tutorials_interfaces/include/**",
+        "/home/stinky/Documents/ros2_ws/src/cpp_parameters/include/**",
+        "/home/stinky/Documents/ros2_ws/src/cpp_pubsub/include/**",
+        "/home/stinky/Documents/ros2_ws/src/cpp_srvcli/include/**",
+        "/home/stinky/Documents/ros2_ws/src/launch_args_example_pkg/include/**",
+        "/home/stinky/Documents/ros2_ws/src/launch_tests_pkg/include/**",
+        "/home/stinky/Documents/ros2_ws/src/more_interfaces/include/**",
+        "/home/stinky/Documents/ros2_ws/src/polygon_base/include/**",
+        "/home/stinky/Documents/ros2_ws/src/polygon_plugins/include/**",
+        "/home/stinky/Documents/ros2_ws/src/ros_tutorials/turtlesim/include/**",
+        "/home/stinky/Documents/ros2_ws/src/tutorial_interfaces/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
